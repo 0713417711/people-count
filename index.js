@@ -14,6 +14,8 @@ function increment() {
 function save() {
     let countSep = count + " - "
     saveEL.textCotent += countSep;
+    countEl.textContent = 0;
+    count = 0;
 }
  
  
